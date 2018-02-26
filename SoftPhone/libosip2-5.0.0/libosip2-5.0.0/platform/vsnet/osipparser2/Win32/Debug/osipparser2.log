@@ -1,0 +1,79 @@
+﻿  sdp_message.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\sdp_message.c”: No such file or directory
+  sdp_accessor.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\sdp_accessor.c”: No such file or directory
+  osip_www_authenticate.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_www_authenticate.c”: No such file or directory
+  osip_via.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_via.c”: No such file or directory
+  osip_uri.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_uri.c”: No such file or directory
+  osip_to.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_to.c”: No such file or directory
+  osip_route.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_route.c”: No such file or directory
+  osip_record_route.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_record_route.c”: No such file or directory
+  osip_proxy_authorization.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_proxy_authorization.c”: No such file or directory
+  osip_proxy_authentication_info.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_proxy_authentication_info.c”: No such file or directory
+  osip_proxy_authenticate.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_proxy_authenticate.c”: No such file or directory
+  osip_port.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_port.c”: No such file or directory
+  osip_parser_cfg.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_parser_cfg.c”: No such file or directory
+  osip_mime_version.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_mime_version.c”: No such file or directory
+  osip_message_to_str.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_message_to_str.c”: No such file or directory
+  osip_message_parse.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_message_parse.c”: No such file or directory
+  osip_message.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_message.c”: No such file or directory
+  osip_md5c.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_md5c.c”: No such file or directory
+  osip_list.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_list.c”: No such file or directory
+  osip_header.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_header.c”: No such file or directory
+  正在生成代码...
+  正在编译...
+  osip_from.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_from.c”: No such file or directory
+  osip_error_info.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_error_info.c”: No such file or directory
+  osip_cseq.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_cseq.c”: No such file or directory
+  osip_content_type.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_content_type.c”: No such file or directory
+  osip_content_length.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_content_length.c”: No such file or directory
+  osip_content_encoding.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_content_encoding.c”: No such file or directory
+  osip_content_disposition.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_content_disposition.c”: No such file or directory
+  osip_contact.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_contact.c”: No such file or directory
+  osip_call_info.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_call_info.c”: No such file or directory
+  osip_call_id.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_call_id.c”: No such file or directory
+  osip_body.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_body.c”: No such file or directory
+  osip_authorization.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_authorization.c”: No such file or directory
+  osip_authentication_info.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_authentication_info.c”: No such file or directory
+  osip_allow.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_allow.c”: No such file or directory
+  osip_alert_info.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_alert_info.c”: No such file or directory
+  osip_accept_language.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_accept_language.c”: No such file or directory
+  osip_accept_encoding.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_accept_encoding.c”: No such file or directory
+  osip_accept.c
+c1 : fatal error C1083: 无法打开源文件: “..\..\..\osip\src\osipparser2\osip_accept.c”: No such file or directory
+  正在生成代码...

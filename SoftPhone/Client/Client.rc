@@ -1,0 +1,353 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Client.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Client.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Client"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Client 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2007",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CLIENT_DIALOG DIALOGEX 0, 0, 198, 144
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Client"
+FONT 9, "宋体"
+BEGIN
+    LTEXT           "帐户：",IDC_STATIC,35,24,25,13
+    EDITTEXT        IDC_ACCOUNT,72,24,89,13,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "密码：",IDC_STATIC,35,51,25,8
+    EDITTEXT        IDC_PASSWORD,72,51,89,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "确定",IDC_REGIST_OK,35,86,50,14
+    PUSHBUTTON      "取消",IDCANCEL,111,86,50,14
+    CONTROL         "IPAddress1",IDC_SERVER_IP,"SysIPAddress32",WS_TABSTOP,
+                    27,111,95,15
+    LTEXT           "端口：",IDC_STATIC,123,111,25,8
+    EDITTEXT        IDC_SERVER_PORT,147,111,40,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "IP：",IDC_STATIC,7,111,18,13
+END
+
+IDD_SOFT_PHONE DIALOGEX 0, 0, 119, 219
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "软电话"
+FONT 10, "System"
+BEGIN
+    EDITTEXT        IDC_USER_NUMBER,0,46,119,20,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "1",IDC_BUTTON1,9,76,19,19
+    PUSHBUTTON      "2",IDC_BUTTON2,35,76,19,19
+    PUSHBUTTON      "3",IDC_BUTTON3,61,76,19,19
+    PUSHBUTTON      "4",IDC_BUTTON4,9,100,19,19
+    PUSHBUTTON      "5",IDC_BUTTON5,35,100,19,19
+    PUSHBUTTON      "6",IDC_BUTTON6,61,100,19,19
+    PUSHBUTTON      "7",IDC_BUTTON7,9,127,19,19
+    PUSHBUTTON      "8",IDC_BUTTON8,35,127,19,19
+    PUSHBUTTON      "9",IDC_BUTTON9,61,127,19,19
+    PUSHBUTTON      "<—",IDC_BUTTON10,9,155,19,19
+    PUSHBUTTON      "0",IDC_BUTTON0,35,155,19,19
+    PUSHBUTTON      "C",IDC_CLEAN,61,155,19,19
+    PUSHBUTTON      "呼叫",IDC_CALLING,87,76,29,19
+    PUSHBUTTON      "挂断",IDC_BYE,87,100,29,19
+    PUSHBUTTON      "接听",IDC_LISTEN,87,127,29,19
+    PUSHBUTTON      "",IDC_BUTTON16,87,155,29,19
+    EDITTEXT        IDC_MSG,1,22,115,15,ES_MULTILINE | ES_UPPERCASE | 
+                    ES_AUTOHSCROLL | ES_READONLY,WS_EX_DLGMODALFRAME | 
+                    WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_RTLREADING | 
+                    WS_EX_LEFTSCROLLBAR | WS_EX_STATICEDGE
+    PUSHBUTTON      "",IDC_ADDFRIEND,35,4,16,14
+    PUSHBUTTON      "",IDC_RECORD,61,5,16,14
+END
+
+IDD_ADD_USER DIALOG DISCARDABLE  0, 0, 167, 150
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "W"
+FONT 10, "宋体"
+BEGIN
+    LTEXT           "姓名：",IDC_STATIC,20,8,25,8
+    EDITTEXT        IDC_NAME,67,8,74,12,ES_AUTOHSCROLL
+    LTEXT           "电话号码：",IDC_STATIC,20,22,41,8
+    EDITTEXT        IDC_PHONE,67,22,74,12,ES_AUTOHSCROLL
+    LTEXT           "住址：",IDC_STATIC,20,36,41,8
+    LTEXT           "工作单位",IDC_STATIC,20,79,31,8
+    EDITTEXT        IDC_ADDR,67,36,74,40,ES_MULTILINE | ES_AUTOHSCROLL
+    EDITTEXT        IDC_WORKUNIT,67,79,74,37,ES_MULTILINE | ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "保存",IDC_SAVE,27,126,41,14
+    PUSHBUTTON      "取消",IDC_CANCEL,97,127,44,13
+END
+
+IDD_DIALOG_LIST DIALOG DISCARDABLE  0, 0, 264, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 10, "System"
+BEGIN
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | WS_BORDER | 
+                    WS_TABSTOP,0,0,264,143
+    PUSHBUTTON      "添加",IDC_ADD,107,147,32,14
+    PUSHBUTTON      "修改",IDC_CHANGE,148,147,32,14
+    PUSHBUTTON      "删除",IDC_DELETE,187,147,32,14
+    PUSHBUTTON      "退出",IDCANCEL,227,147,32,14
+END
+
+IDD_MODIFY_CONTACT DIALOG DISCARDABLE  0, 0, 184, 158
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "W"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,55,7,120,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_PHONE,55,24,120,14,ES_AUTOHSCROLL | ES_NUMBER | 
+                    WS_DISABLED
+    EDITTEXT        IDC_EDIT_ADDRESS,55,41,119,39,ES_MULTILINE | 
+                    ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_WORK_UNIT,55,84,119,39,ES_MULTILINE | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "保存",IDOK,28,130,50,14
+    PUSHBUTTON      "取消",IDCANCEL,99,130,50,14
+    LTEXT           "姓名:",IDC_STATIC,9,7,24,8
+    LTEXT           "电话号码:",IDC_STATIC,9,29,37,8
+    LTEXT           "住址:",IDC_STATIC,9,45,21,8
+    LTEXT           "工作单位:",IDC_STATIC,9,87,37,8
+END
+
+IDD_CALL_REGISTER DIALOG DISCARDABLE  0, 0, 349, 224
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "通话记录"
+FONT 9, "宋体"
+BEGIN
+    PUSHBUTTON      "关闭",IDCANCEL,307,209,28,14
+    PUSHBUTTON      "删除",IDC_BTN_DEL,255,209,28,14
+    CONTROL         "List1",IDC_LIST,"SysListView32",LVS_REPORT | 
+                    LVS_SINGLESEL | WS_BORDER | WS_TABSTOP,0,7,348,199
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Client Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Client\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2007\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Client.EXE\0"
+            VALUE "ProductName", "Client 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CLIENT_DIALOG, DIALOG
+    BEGIN
+        VERTGUIDE, 35
+        VERTGUIDE, 72
+        VERTGUIDE, 161
+        HORZGUIDE, 24
+        HORZGUIDE, 51
+        HORZGUIDE, 86
+        HORZGUIDE, 111
+    END
+
+    IDD_SOFT_PHONE, DIALOG
+    BEGIN
+        VERTGUIDE, 9
+        VERTGUIDE, 35
+        VERTGUIDE, 61
+        VERTGUIDE, 87
+        VERTGUIDE, 116
+        HORZGUIDE, 5
+        HORZGUIDE, 76
+        HORZGUIDE, 100
+        HORZGUIDE, 127
+        HORZGUIDE, 155
+    END
+
+    IDD_ADD_USER, DIALOG
+    BEGIN
+        VERTGUIDE, 20
+        VERTGUIDE, 67
+        VERTGUIDE, 141
+        HORZGUIDE, 8
+        HORZGUIDE, 22
+        HORZGUIDE, 36
+        HORZGUIDE, 79
+        HORZGUIDE, 127
+    END
+
+    IDD_DIALOG_LIST, DIALOG
+    BEGIN
+        HORZGUIDE, 147
+    END
+
+    IDD_MODIFY_CONTACT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 177
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 151
+    END
+
+    IDD_CALL_REGISTER, DIALOG
+    BEGIN
+        RIGHTMARGIN, 348
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 223
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Client(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Client.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

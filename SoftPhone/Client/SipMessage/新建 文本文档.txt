@@ -1,0 +1,9 @@
+	g_osipMsg.SetLocalAdd("127.0.0.1",strlen("127.0.0.1"),8080);
+	g_osipMsg.SetRemoteAdd("127.0.0.1",strlen("127.0.0.1"),8000);
+	g_osipMsg.SetUserInfo("linchen",strlen("lenchen"),"123456",strlen("123456"));
+	g_osipMsg.NewCallIDTag();
+	CString str;
+	char ptr[BUFSIZ] = {0};
+ 	unsigned int len = BUFSIZ;
+	g_osipMsg.GetSipMessage(ptr,&len,Bye);
+	AfxMessageBox(ptr);

@@ -1,0 +1,86 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: osip2fsm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE0.tmp" with contents
+[
+/nologo /MD /W3 /GX /O1 /I ".\include" /D "WIN32" /D "NDEBUG" /D "_MBCS" /D "_LIB" /Fp"Release/osip2fsm.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\fsm_misc.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\ict.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\ict_fsm.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\ist.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\ist_fsm.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\nict.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\nict_fsm.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\nist.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\nist_fsm.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\osip.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\osip_dialog.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\osip_event.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\osip_negotiation.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\osip_time.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\osip_transaction.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\port_condv.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\port_fifo.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\port_sema.c"
+"E:\工作\WebCall_ActiveX\libosip2.20\osip2fsm\osip2\port_thread.c"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE0.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE1.tmp" with contents
+[
+/nologo /out:"..\..\lib\osip_fsm2_r.lib" 
+".\Release\fsm_misc.obj"
+".\Release\ict.obj"
+".\Release\ict_fsm.obj"
+".\Release\ist.obj"
+".\Release\ist_fsm.obj"
+".\Release\nict.obj"
+".\Release\nict_fsm.obj"
+".\Release\nist.obj"
+".\Release\nist_fsm.obj"
+".\Release\osip.obj"
+".\Release\osip_dialog.obj"
+".\Release\osip_event.obj"
+".\Release\osip_negotiation.obj"
+".\Release\osip_time.obj"
+".\Release\osip_transaction.obj"
+".\Release\port_condv.obj"
+".\Release\port_fifo.obj"
+".\Release\port_sema.obj"
+".\Release\port_thread.obj"
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSPE1.tmp"
+<h3>Output Window</h3>
+Compiling...
+fsm_misc.c
+ict.c
+ict_fsm.c
+ist.c
+ist_fsm.c
+nict.c
+nict_fsm.c
+nist.c
+nist_fsm.c
+osip.c
+osip_dialog.c
+osip_event.c
+osip_negotiation.c
+osip_time.c
+osip_transaction.c
+port_condv.c
+port_fifo.c
+port_sema.c
+port_thread.c
+Creating library...
+
+
+
+<h3>Results</h3>
+osip_fsm2_r.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

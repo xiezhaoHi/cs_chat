@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Template|Win32">
+      <Configuration>Template</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <ProjectGuid>{11B5369C-911B-4857-8CA5-16F4CF06DB62}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Template|Win32'">
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules />
+    <CodeAnalysisRuleAssemblies />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>./include;./osipparser2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Debug\osip2parse.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\osip2parse.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\..\lib\osip_parse2_d.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MinSpace</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <AdditionalIncludeDirectories>./include;./osipparser2;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\osip2parse.pch</PrecompiledHeaderOutputFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\osip2parse.bsc</OutputFile>
+    </Bscmake>
+    <Lib>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>..\..\lib\osip_parse2_r.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\OSipMessage\COSipMessage.cpp" />
+    <ClCompile Include="osipparser2\osip_accept.c" />
+    <ClCompile Include="osipparser2\osip_accept_encoding.c" />
+    <ClCompile Include="osipparser2\osip_accept_language.c" />
+    <ClCompile Include="osipparser2\osip_alert_info.c" />
+    <ClCompile Include="osipparser2\osip_allow.c" />
+    <ClCompile Include="osipparser2\osip_authentication_info.c" />
+    <ClCompile Include="osipparser2\osip_authorization.c" />
+    <ClCompile Include="osipparser2\osip_body.c" />
+    <ClCompile Include="osipparser2\osip_call_id.c" />
+    <ClCompile Include="osipparser2\osip_call_info.c" />
+    <ClCompile Include="osipparser2\osip_contact.c" />
+    <ClCompile Include="osipparser2\osip_content_disposition.c" />
+    <ClCompile Include="osipparser2\osip_content_encoding.c" />
+    <ClCompile Include="osipparser2\osip_content_length.c" />
+    <ClCompile Include="osipparser2\osip_content_type.c" />
+    <ClCompile Include="osipparser2\osip_cseq.c" />
+    <ClCompile Include="osipparser2\osip_error_info.c" />
+    <ClCompile Include="osipparser2\osip_from.c" />
+    <ClCompile Include="osipparser2\osip_header.c" />
+    <ClCompile Include="osipparser2\osip_list.c" />
+    <ClCompile Include="osipparser2\osip_md5c.c" />
+    <ClCompile Include="osipparser2\osip_message.c" />
+    <ClCompile Include="osipparser2\osip_message_parse.c" />
+    <ClCompile Include="osipparser2\osip_message_to_str.c" />
+    <ClCompile Include="osipparser2\osip_mime_version.c" />
+    <ClCompile Include="osipparser2\osip_parser_cfg.c" />
+    <ClCompile Include="osipparser2\osip_port.c" />
+    <ClCompile Include="osipparser2\osip_proxy_authenticate.c" />
+    <ClCompile Include="osipparser2\osip_proxy_authentication_info.c" />
+    <ClCompile Include="osipparser2\osip_proxy_authorization.c" />
+    <ClCompile Include="osipparser2\osip_record_route.c" />
+    <ClCompile Include="osipparser2\osip_rfc3264.c" />
+    <ClCompile Include="osipparser2\osip_route.c" />
+    <ClCompile Include="osipparser2\osip_to.c" />
+    <ClCompile Include="osipparser2\osip_uri.c" />
+    <ClCompile Include="osipparser2\osip_via.c" />
+    <ClCompile Include="osipparser2\osip_www_authenticate.c" />
+    <ClCompile Include="osipparser2\sdp_accessor.c" />
+    <ClCompile Include="osipparser2\sdp_message.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\OSipMessage\COSipMessage.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_accept.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_accept_encoding.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_accept_language.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_alert_info.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_allow.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_authentication_info.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_authorization.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_call_id.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_call_info.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_contact.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_content_disposition.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_content_encoding.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_content_length.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_content_type.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_cseq.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_error_info.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_from.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_header.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_mime_version.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_proxy_authenticate.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_proxy_authentication_info.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_proxy_authorization.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_record_route.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_route.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_to.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_via.h" />
+    <ClInclude Include="include\osipparser2\headers\osip_www_authenticate.h" />
+    <ClInclude Include="include\osipparser2\osip_body.h" />
+    <ClInclude Include="include\osipparser2\osip_const.h" />
+    <ClInclude Include="include\osipparser2\osip_headers.h" />
+    <ClInclude Include="include\osipparser2\osip_list.h" />
+    <ClInclude Include="include\osipparser2\osip_md5.h" />
+    <ClInclude Include="include\osipparser2\osip_message.h" />
+    <ClInclude Include="include\osipparser2\osip_parser.h" />
+    <ClInclude Include="include\osipparser2\osip_port.h" />
+    <ClInclude Include="include\osipparser2\osip_rfc3264.h" />
+    <ClInclude Include="include\osipparser2\osip_uri.h" />
+    <ClInclude Include="include\osipparser2\sdp_message.h" />
+    <ClInclude Include="osipparser2\osip_rfc3264i.h" />
+    <ClInclude Include="osipparser2\parser.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

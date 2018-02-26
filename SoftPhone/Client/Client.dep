@@ -1,0 +1,857 @@
+# Microsoft Developer Studio Generated Dependency File, included by Client.mak
+
+.\SRC\AppMutex.cpp : \
+	".\SRC\AppMutex.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SRC\AppThread.cpp : \
+	".\SRC\AppThread.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\CallInState.cpp : \
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_language.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_alert_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_allow.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_id.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_contact.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_disposition.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_length.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_type.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_cseq.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_error_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_from.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_header.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_mime_version.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_record_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_to.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_via.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_www_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_body.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_const.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_headers.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_list.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_message.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_parser.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_port.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_uri.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\sdp_message.h"\
+	".\CallInState.h"\
+	".\CallOutState.h"\
+	".\Client.h"\
+	".\ClientSocket.h"\
+	".\MessageControl.h"\
+	".\RegState.h"\
+	".\SipMessage.h"\
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\IOSocket.h"\
+	".\SRC\MessageQueue.h"\
+	".\src\procqueue.h"\
+	".\SRC\SocketStream.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	".\StateBase.h"\
+	".\StateMacManager.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\CallOutState.cpp : \
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_language.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_alert_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_allow.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_id.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_contact.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_disposition.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_length.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_type.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_cseq.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_error_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_from.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_header.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_mime_version.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_record_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_to.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_via.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_www_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_body.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_const.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_headers.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_list.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_message.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_parser.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_port.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_uri.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\sdp_message.h"\
+	".\CallInState.h"\
+	".\CallOutState.h"\
+	".\Client.h"\
+	".\ClientSocket.h"\
+	".\MessageControl.h"\
+	".\RegState.h"\
+	".\SipMessage.h"\
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\IOSocket.h"\
+	".\SRC\MessageQueue.h"\
+	".\src\procqueue.h"\
+	".\SRC\SocketStream.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	".\StateBase.h"\
+	".\StateMacManager.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\Client.cpp : \
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_language.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_alert_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_allow.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_id.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_contact.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_disposition.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_length.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_type.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_cseq.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_error_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_from.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_header.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_mime_version.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_record_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_to.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_via.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_www_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_body.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_const.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_headers.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_list.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_message.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_parser.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_port.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_uri.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\sdp_message.h"\
+	".\CallInState.h"\
+	".\CallOutState.h"\
+	".\Client.h"\
+	".\ClientDlg.h"\
+	".\ClientSocket.h"\
+	".\MessageControl.h"\
+	".\RegState.h"\
+	".\SipMessage.h"\
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\IOSocket.h"\
+	".\SRC\MessageQueue.h"\
+	".\src\procqueue.h"\
+	".\SRC\SocketStream.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	".\StateBase.h"\
+	".\StateMacManager.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\Client.rc : \
+	".\res\Client.ico"\
+	".\res\Client.rc2"\
+	
+
+.\ClientDlg.cpp : \
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_language.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_alert_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_allow.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_id.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_contact.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_disposition.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_length.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_type.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_cseq.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_error_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_from.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_header.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_mime_version.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_record_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_to.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_via.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_www_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_body.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_const.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_headers.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_list.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_message.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_parser.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_port.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_uri.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\sdp_message.h"\
+	".\CallInState.h"\
+	".\CallOutState.h"\
+	".\Client.h"\
+	".\ClientDlg.h"\
+	".\ClientSocket.h"\
+	".\MessageControl.h"\
+	".\RegState.h"\
+	".\SipMessage.h"\
+	".\SoftPhoneDlg.h"\
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\IOSocket.h"\
+	".\SRC\MessageQueue.h"\
+	".\src\procqueue.h"\
+	".\SRC\SocketStream.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	".\StateBase.h"\
+	".\StateMacManager.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\ClientSocket.cpp : \
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_language.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_alert_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_allow.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_id.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_contact.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_disposition.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_length.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_type.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_cseq.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_error_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_from.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_header.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_mime_version.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_record_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_to.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_via.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_www_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_body.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_const.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_headers.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_list.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_message.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_parser.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_port.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_uri.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\sdp_message.h"\
+	".\CallInState.h"\
+	".\CallOutState.h"\
+	".\Client.h"\
+	".\ClientSocket.h"\
+	".\MessageControl.h"\
+	".\RegState.h"\
+	".\SipMessage.h"\
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\IOSocket.h"\
+	".\SRC\MessageQueue.h"\
+	".\src\procqueue.h"\
+	".\SRC\SocketStream.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	".\StateBase.h"\
+	".\StateMacManager.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\CWaveIn.cpp : \
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_language.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_alert_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_allow.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_id.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_contact.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_disposition.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_length.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_type.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_cseq.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_error_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_from.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_header.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_mime_version.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_record_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_to.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_via.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_www_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_body.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_const.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_headers.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_list.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_message.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_parser.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_port.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_uri.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\sdp_message.h"\
+	".\CallInState.h"\
+	".\CallOutState.h"\
+	".\Client.h"\
+	".\ClientSocket.h"\
+	".\CWaveIn.h"\
+	".\MessageControl.h"\
+	".\RegState.h"\
+	".\SipMessage.h"\
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\IOSocket.h"\
+	".\SRC\MessageQueue.h"\
+	".\src\procqueue.h"\
+	".\SRC\SocketStream.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	".\StateBase.h"\
+	".\StateMacManager.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SRC\G7231_G792.cpp : \
+	".\src\g7231\coder.h"\
+	".\src\g7231\cst_lbc.h"\
+	".\src\g7231\decod.h"\
+	".\src\g7231\typedef.h"\
+	".\SRC\G7231_G792.h"\
+	".\src\g729\va_g729a.h"\
+	
+
+.\SRC\IOSocket.cpp : \
+	".\SRC\IOSocket.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\MessageControl.cpp : \
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_language.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_alert_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_allow.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_id.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_contact.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_disposition.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_length.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_type.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_cseq.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_error_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_from.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_header.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_mime_version.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_record_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_to.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_via.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_www_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_body.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_const.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_headers.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_list.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_message.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_parser.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_port.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_uri.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\sdp_message.h"\
+	".\CallInState.h"\
+	".\CallOutState.h"\
+	".\Client.h"\
+	".\ClientSocket.h"\
+	".\MessageControl.h"\
+	".\RegState.h"\
+	".\SipMessage.h"\
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\IOSocket.h"\
+	".\SRC\MessageQueue.h"\
+	".\src\procqueue.h"\
+	".\SRC\SocketStream.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	".\StateBase.h"\
+	".\StateMacManager.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SRC\MessageQueue.cpp : \
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\MessageQueue.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\RegState.cpp : \
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_language.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_alert_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_allow.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_id.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_contact.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_disposition.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_length.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_type.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_cseq.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_error_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_from.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_header.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_mime_version.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_record_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_to.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_via.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_www_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_body.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_const.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_headers.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_list.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_message.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_parser.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_port.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_uri.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\sdp_message.h"\
+	".\CallInState.h"\
+	".\CallOutState.h"\
+	".\Client.h"\
+	".\ClientSocket.h"\
+	".\MessageControl.h"\
+	".\RegState.h"\
+	".\SipMessage.h"\
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\IOSocket.h"\
+	".\SRC\MessageQueue.h"\
+	".\src\procqueue.h"\
+	".\SRC\SocketStream.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	".\StateBase.h"\
+	".\StateMacManager.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SipMessage.cpp : \
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_language.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_alert_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_allow.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_id.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_contact.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_disposition.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_length.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_type.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_cseq.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_error_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_from.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_header.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_mime_version.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_record_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_to.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_via.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_www_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_body.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_const.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_headers.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_list.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_message.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_parser.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_port.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_uri.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\sdp_message.h"\
+	".\CallInState.h"\
+	".\CallOutState.h"\
+	".\Client.h"\
+	".\ClientSocket.h"\
+	".\MessageControl.h"\
+	".\RegState.h"\
+	".\SipMessage.h"\
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\IOSocket.h"\
+	".\SRC\MessageQueue.h"\
+	".\src\procqueue.h"\
+	".\SRC\SocketStream.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	".\StateBase.h"\
+	".\StateMacManager.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SRC\SocketStream.cpp : \
+	".\SRC\IOSocket.h"\
+	".\SRC\SocketStream.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SoftPhoneDlg.cpp : \
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_language.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_alert_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_allow.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_id.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_contact.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_disposition.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_length.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_type.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_cseq.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_error_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_from.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_header.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_mime_version.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_record_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_to.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_via.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_www_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_body.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_const.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_headers.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_list.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_message.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_parser.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_port.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_uri.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\sdp_message.h"\
+	".\CallInState.h"\
+	".\CallOutState.h"\
+	".\Client.h"\
+	".\ClientSocket.h"\
+	".\MessageControl.h"\
+	".\RegState.h"\
+	".\SipMessage.h"\
+	".\SoftPhoneDlg.h"\
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\IOSocket.h"\
+	".\SRC\MessageQueue.h"\
+	".\src\procqueue.h"\
+	".\SRC\SocketStream.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	".\StateBase.h"\
+	".\StateMacManager.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\StateBase.cpp : \
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_language.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_alert_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_allow.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_id.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_contact.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_disposition.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_length.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_type.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_cseq.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_error_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_from.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_header.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_mime_version.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_record_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_to.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_via.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_www_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_body.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_const.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_headers.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_list.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_message.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_parser.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_port.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_uri.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\sdp_message.h"\
+	".\CallInState.h"\
+	".\CallOutState.h"\
+	".\Client.h"\
+	".\ClientSocket.h"\
+	".\MessageControl.h"\
+	".\RegState.h"\
+	".\SipMessage.h"\
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\IOSocket.h"\
+	".\SRC\MessageQueue.h"\
+	".\src\procqueue.h"\
+	".\SRC\SocketStream.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	".\StateBase.h"\
+	".\StateMacManager.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\StateMacManager.cpp : \
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_language.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_alert_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_allow.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_id.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_contact.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_disposition.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_length.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_type.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_cseq.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_error_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_from.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_header.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_mime_version.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_record_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_to.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_via.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_www_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_body.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_const.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_headers.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_list.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_message.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_parser.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_port.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_uri.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\sdp_message.h"\
+	".\CallInState.h"\
+	".\CallOutState.h"\
+	".\Client.h"\
+	".\ClientSocket.h"\
+	".\MessageControl.h"\
+	".\RegState.h"\
+	".\SipMessage.h"\
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\IOSocket.h"\
+	".\SRC\MessageQueue.h"\
+	".\src\procqueue.h"\
+	".\SRC\SocketStream.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	".\StateBase.h"\
+	".\StateMacManager.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\StdAfx.cpp : \
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_accept_language.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_alert_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_allow.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_id.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_call_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_contact.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_disposition.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_encoding.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_length.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_content_type.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_cseq.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_error_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_from.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_header.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_mime_version.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authentication_info.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_proxy_authorization.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_record_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_route.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_to.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_via.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\headers\osip_www_authenticate.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_body.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_const.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_headers.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_list.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_message.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_parser.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_port.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\osip_uri.h"\
+	"..\libosip2.20\osip2fsm\include\osipparser2\sdp_message.h"\
+	".\CallInState.h"\
+	".\CallOutState.h"\
+	".\ClientSocket.h"\
+	".\MessageControl.h"\
+	".\RegState.h"\
+	".\SipMessage.h"\
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\SRC\IOSocket.h"\
+	".\SRC\MessageQueue.h"\
+	".\src\procqueue.h"\
+	".\SRC\SocketStream.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	".\StateBase.h"\
+	".\StateMacManager.h"\
+	".\StdAfx.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SRC\Time_Value.cpp : \
+	".\SRC\Time_Value.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SRC\Timer.cpp : \
+	".\SRC\AppMutex.h"\
+	".\SRC\AppThread.h"\
+	".\src\procqueue.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\Timer.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SRC\TimerQueue.cpp : \
+	".\SRC\AppMutex.h"\
+	".\SRC\Time_Value.h"\
+	".\SRC\TimerQueue.h"\
+	".\SRC\TimerSession.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	
+
+.\SRC\TimerSession.cpp : \
+	".\SRC\Time_Value.h"\
+	".\SRC\TimerSession.h"\
+	"c:\program files\microsoft visual studio\vc98\include\basetsd.h"\
+	

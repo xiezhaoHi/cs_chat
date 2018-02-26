@@ -1,0 +1,38 @@
+﻿C:\Program Files (x86)\MSBuild\14.0\bin\Microsoft.Common.CurrentVersion.targets(1611,5): warning : The referenced project '..\..\..\osip\platform\vsnet\osipparser2.vcxproj' does not exist.
+  port_thread.c
+..\..\src\osip2\port_thread.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  port_sema.c
+..\..\src\osip2\port_sema.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  port_fifo.c
+..\..\src\osip2\port_fifo.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  port_condv.c
+..\..\src\osip2\port_condv.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  osip_transaction.c
+..\..\src\osip2\osip_transaction.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  osip_time.c
+..\..\src\osip2\osip_time.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  osip_event.c
+..\..\src\osip2\osip_event.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  osip_dialog.c
+..\..\src\osip2\osip_dialog.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  osip.c
+..\..\src\osip2\osip.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  nist_fsm.c
+..\..\src\osip2\nist_fsm.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  nist.c
+..\..\src\osip2\nist.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  nict_fsm.c
+..\..\src\osip2\nict_fsm.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  nict.c
+..\..\src\osip2\nict.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  ist_fsm.c
+..\..\src\osip2\ist_fsm.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  ist.c
+..\..\src\osip2\ist.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  ict_fsm.c
+..\..\src\osip2\ict_fsm.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  ict.c
+..\..\src\osip2\ict.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  fsm_misc.c
+..\..\src\osip2\fsm_misc.c(20): fatal error C1083: 无法打开包括文件: “osip2/internal.h”: No such file or directory
+  正在生成代码...

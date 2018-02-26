@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: osip2parse - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\temp\RSP1AE.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "./include" /I "./osipparser2" /D "WIN32" /D "_DEBUG" /D "_MBCS" /D "_LIB" /Fp"Debug/osip2parse.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\CN0701\OSipMessage\COSipMessage.cpp"
+]
+Creating command line "cl.exe @D:\temp\RSP1AE.tmp" 
+Creating temporary file "D:\temp\RSP1AF.tmp" with contents
+[
+/nologo /out:"..\..\lib\osip_parse2_d.lib" 
+.\Debug\osip_accept.obj
+.\Debug\osip_accept_encoding.obj
+.\Debug\osip_accept_language.obj
+.\Debug\osip_alert_info.obj
+.\Debug\osip_allow.obj
+.\Debug\osip_authentication_info.obj
+.\Debug\osip_authorization.obj
+.\Debug\osip_body.obj
+.\Debug\osip_call_id.obj
+.\Debug\osip_call_info.obj
+.\Debug\osip_contact.obj
+.\Debug\osip_content_disposition.obj
+.\Debug\osip_content_encoding.obj
+.\Debug\osip_content_length.obj
+.\Debug\osip_content_type.obj
+.\Debug\osip_cseq.obj
+.\Debug\osip_error_info.obj
+.\Debug\osip_from.obj
+.\Debug\osip_header.obj
+.\Debug\osip_list.obj
+.\Debug\osip_md5c.obj
+.\Debug\osip_message.obj
+.\Debug\osip_message_parse.obj
+.\Debug\osip_message_to_str.obj
+.\Debug\osip_mime_version.obj
+.\Debug\osip_parser_cfg.obj
+.\Debug\osip_port.obj
+.\Debug\osip_proxy_authenticate.obj
+.\Debug\osip_proxy_authentication_info.obj
+.\Debug\osip_proxy_authorization.obj
+.\Debug\osip_record_route.obj
+.\Debug\osip_rfc3264.obj
+.\Debug\osip_route.obj
+.\Debug\osip_to.obj
+.\Debug\osip_uri.obj
+.\Debug\osip_via.obj
+.\Debug\osip_www_authenticate.obj
+.\Debug\sdp_accessor.obj
+.\Debug\sdp_message.obj
+.\Debug\COSipMessage.obj
+]
+Creating command line "link.exe -lib @D:\temp\RSP1AF.tmp"
+<h3>Output Window</h3>
+Compiling...
+COSipMessage.cpp
+e:\cn0701\osipmessage\cosipmessage.cpp(4) : fatal error C1083: Cannot open include file: 'OSipMessage.h': No such file or directory
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+osip_parse2_d.lib - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
